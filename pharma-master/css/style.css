@@ -49,7 +49,22 @@ a {
   bottom: 0;
   opacity: 0;
   visibility: hidden; }
-
+  .navlogo {
+    width: 200px;
+    position: relative;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navlogo {
+      width: 150px; /* Adjust the width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .navlogo {
+      width: 100px; /* Adjust the width for very small screens */
+    }
+  }
 .offcanvas-menu .site-wrap {
   position: absolute;
   height: 100%;
